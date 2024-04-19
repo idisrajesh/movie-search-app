@@ -1,0 +1,39 @@
+.search-Wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  position: relative;
+}
+
+.search-icon {
+  margin-top: 10px;
+  width: 35px;
+  right: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-input {
+  border-radius: 20px;
+  width: 300px;
+  height: 36px;
+  padding: 5px 10px;
+  border: 1px solid #9d9c9c;
+  outline: none;
+
+  @media (min-width: 1200px) {
+    width: 400px;
+  }
+
+  @media (max-width: 576px) {
+    width: 100%;
+  }
+
+  &:focus {
+    width: 30%;
+    transition: width 0.5s ease-in-out;
+  }
+}

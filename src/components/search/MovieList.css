@@ -1,0 +1,16 @@
+.movie-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.movie-poster {
+    height: 40px;
+    width: 30px;
+    padding-left: 3%;
+}
+
+.movie-title {
+    font-weight: bold;
+    padding-left: 5%;
+}

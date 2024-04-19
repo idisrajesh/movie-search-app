@@ -1,0 +1,13 @@
+.movie-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5%;
+    font-size: larger;
+    justify-content: space-evenly;
+}
+
+.movie-image {
+    height: 400px;
+    width: 300px;
+}
